@@ -71,7 +71,9 @@
       <div class="hero-unit">
         <!-- h1>Wind Platform</h1 -->
         <img src="img/logo-site.png" alt="Wind Platform" width="550px" height="118px" border="0"/>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p>
+        	Uma plataforma para desenvolvimento de software corporativo orientada ao Modelo de Domínio.
+        </p>
         <p><a class="btn btn-primary btn-large">
         		<i class="icon-download-alt icon-white"></i> Download
            </a>
@@ -84,18 +86,26 @@
       <div class="row">
         <div class="span4">
           <h2>Domain Driven Design</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">Detalhes &raquo;</a></p>
+           	<p>
+           		Para a maioria dos projetos de software, principalmente software corporativos, o foco principal deve ser no Domínio e na lógica que o envolve. As particularidades técnicas, que não estão diretamente ligadas ao problema, não devem ser um fator adicional à complexidade já presente no Domínio. Com base nesse fato, a Plataforma Wind almeja reduzir as preocupações e o tempo perdido com empecilhos técnicos, voltando a atenção do time para o que realmente importa: O Modelo de Domnínio.     
+			</p>
+          	<p>
+          		<a class="btn disabled" href="#">Detalhes &raquo;</a>
+          	</p>
         </div>
         <div class="span4">
           <h2>Modularidade</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">Detalhes &raquo;</a></p>
+           <p>
+				Visando aumentar a escalabilidade dos aplicativos e o desacoplamento entre os módulos, a plataforma faz uso do <a href="http://www.osgi.org/About/Technology" target="blank">OSGi</a>, um sistema de modularização amplamente consolidado. Na arquitetura empregada, cada funcionalidade provida é implementada na forma de um módulo. Isso torna a evolução indiviual possível e minimiza o impacto uma vez que existe uma interface de comunição bem definida entre os módulos. Até mesmo implementações diferentes de um mesmo módulo podem co-existir no mesmo ambiente. 
+           </p>
+          <p><a class="btn disabled" href="#">Detalhes &raquo;</a></p>
        </div>
         <div class="span4">
           <h2>Geração de GUI</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">Detalhes &raquo;</a></p>
+          <p>
+          	Uma parcela significativa do custo e tempo total de um projeto de software é dedicada a criação da interface gráfica e seus aspectos relacionados, tais como: validações e máscaras de formatação das entradas do usuário; cross-browser; fluxo de navegação; comunicação cliente/servidor; entre outras. Para resolver esse problema, a Plataforma Wind se beneficia do framework <a href="http://www.eclipse.org/rap" target="blank">Eclipse RAP</a> para gerar dinâmicamente (com base nos Objetos de Domínio somados à meta-informações) todos os componentes gráficos necessários para a interação do usuário com os dados que compõem o Modelo de Domínio   
+          </p>
+          <p><a class="btn disabled" href="#">Detalhes &raquo;</a></p>
         </div>
       </div>
 	
@@ -104,13 +114,17 @@
       <div class="row">
         <div class="span4">
           <h2>Regras de Negócio Fáceis de Testar</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">Detalhes &raquo;</a></p>
+           	<p>
+				As Regras de Negócio atuam sobre os dados do Modelo de Domínio manipulando-os com a finalidade de produzir um resultado pertinente ao Negócio. A Plataforma Wind aplica o princípio de <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle" target="blank">Responsabilidade Única</a> de forma que cada regra é codificada em uma unidade contida e bem definida. Dessa forma, o objetivo de cada unidade de código torna-se explícito aumentando a visibilidade e facilitando a implementação de casos de teste.     
+			</p>
+          <p><a class="btn disabled" href="#">Detalhes &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Open Source</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">Detalhes &raquo;</a></p>
+           	<p>
+				O código da Plataforma e das ferramentas desenvolvidas para facilitar seu uso são licenciadas sob os termos da <a href="http://www.eclipse.org/legal/epl-v10.html" target="blank">EPL</a>. O código fonte está disponível no <a href="http://code.google.com/p/wind-platform/source/checkout" target="blank">Google Code</a> e no <a href="http://github.com/pffreitas" target="blank">Github</a>. 
+			</p>
+          <p><a class="btn disabled" href="#">Detalhes &raquo;</a></p>
        </div>
         <div class="span4">
           <h2>Contribua</h2>
@@ -167,19 +181,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-
+	<script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ 
   </body>
 </html>
